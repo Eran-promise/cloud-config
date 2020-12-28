@@ -2,16 +2,15 @@ spring:
   jpa:
     show-sql: true
   datasource:
-    driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/cloud-edu?useUnicode=true&characterEncoding=utf8
+    url: jdbc:mysql://localhost:3306/test?useUnicode=true&characterEncoding=utf8
     username: root
     password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
   mail:
-    protocol: smtp
-    host: smtp.qq.com
-    default-encoding: utf-8
-    username: 506000502@qq.com
-    password: izdwixkbmmzkbgbg
+    host: smtp.163.com
+    username: 18852676039@163.com
+    password: ENKCEDSUODGKDAGF
+    default-encoding: UTF-8
 authcode:
   expiretime: 600000
 ip:
