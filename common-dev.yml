@@ -15,7 +15,7 @@ authcode:
   expiretime: 600000
 ip:
   minute: 1
-  maxreqnum: 8
+  maxreqnum: 7
 management:
   endpoints:
     web:
